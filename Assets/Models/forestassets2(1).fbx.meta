@@ -1,0 +1,322 @@
+fileFormatVersion: 2
+guid: 189b2baaf578f3891950b7487dca149e
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ACORN1
+    second: {fileID: 2100000, guid: 8c6cdba5345334ffb80d3006a855456d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLADES
+    second: {fileID: 2100000, guid: 995774222940ddb0a96adf10630c1677, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DRONE
+    second: {fileID: 2100000, guid: f3b2818c455672c069f014d089c1b032, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LEAFS1
+    second: {fileID: 2100000, guid: 703f1dba6bbfe3c0f9b7423b02a79bca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TREE2LEAFS
+    second: {fileID: 2100000, guid: 2aff8743c5baaa86a8a870bdf52b55e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TREETRUNKSUBSTANCE
+    second: {fileID: 2100000, guid: 642127399865ff150995b7e6662db793, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: standardSurface1
+    second: {fileID: 2100000, guid: 32636c3dc78efca7f857d8b547be235e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree1LEAFSSUBTANCE
+    second: {fileID: 2100000, guid: d9ea2f5bc1bce5ca2b366116c46522d4, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: assets1_Leafs1_Emissive
+    second: {fileID: 2800000, guid: 3eff8e684a59ca075b3acaf3688036fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: assets1_Leafs1_Height
+    second: {fileID: 2800000, guid: e65e5be29a450aa3389eb4064fafb979, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: assets1_Leafs1_Metallic
+    second: {fileID: 2800000, guid: cf3e4861998f9be2cbd0781126913895, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: assets1_Leafs1_Normal
+    second: {fileID: 2800000, guid: daa8928610ac5b986aed470a34b8d71e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: assets1_Leafs1_Roughness
+    second: {fileID: 2800000, guid: 3290525c44637e2e0914464ec89ee49e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: assets1_Leafs2_Emissive
+    second: {fileID: 2800000, guid: 7998fc40c5ac14fd5aa7de91d92f1778, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: assets1_Leafs2_Height
+    second: {fileID: 2800000, guid: 5d05a8ff256784e2ca9120c5b6defe45, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: assets1_Leafs2_Metallic
+    second: {fileID: 2800000, guid: bd31e49f64019d49882bc58dd1893f3f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: assets1_Leafs2_Normal
+    second: {fileID: 2800000, guid: 37d9aaa7049eda62fa5da5b19a596047, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: assets1_Leafs2_Roughness
+    second: {fileID: 2800000, guid: f5fd96a5bbad7c311828dfeda6fe61e9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: assets1_acorn_Emissive
+    second: {fileID: 2800000, guid: f6951e41528d54e4f86e37644ba8497b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: assets1_acorn_Height
+    second: {fileID: 2800000, guid: 80790a9a9e6f449c0923ed015dbdc030, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: assets1_acorn_Metallic
+    second: {fileID: 2800000, guid: b6419beabec44a04d9ab901aa9f0eb4c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: assets1_acorn_Normal
+    second: {fileID: 2800000, guid: a2142c2ad828360ce81165c210900a81, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: assets1_acorn_Roughness
+    second: {fileID: 2800000, guid: e20dbd8a258507473bfe438e57b14c0f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_DroneBody_Emissive
+    second: {fileID: 2800000, guid: 46913846488084e40bc5a89ed6daad71, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_DroneBody_Height
+    second: {fileID: 2800000, guid: bcedeeb6a17fce56b8a4a3ed4e5294c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_DroneBody_Metallic
+    second: {fileID: 2800000, guid: 028bc41043bca130e87b87f00c5db4a5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_DroneBody_Normal
+    second: {fileID: 2800000, guid: 11be2ae3a94c43be5b8d83127cce9d52, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_DroneBody_Roughness
+    second: {fileID: 2800000, guid: e017a0c010477514ea3ff46a47c8a1c4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_blades_Emissive
+    second: {fileID: 2800000, guid: 0d8419a8b394ea7a58c37759efcf33cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_blades_Height
+    second: {fileID: 2800000, guid: 064f4ecb65596d96dbf196542afce966, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_blades_Metallic
+    second: {fileID: 2800000, guid: 5e0724dfe3633e028a3587d2afa6b0db, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_blades_Normal
+    second: {fileID: 2800000, guid: 6e0e0235a7e7b4a6881854580e77ff36, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drone_blades_Roughness
+    second: {fileID: 2800000, guid: 9ac8c873c8c9506058011efaee239373, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree1_Leaf3_Emissive
+    second: {fileID: 2800000, guid: 8f607c31dff8ac9e9a3c1c039a09028a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree1_Leaf3_Height
+    second: {fileID: 2800000, guid: 393bbf3867173fe3a83231009be5a1ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree1_Leaf3_Metallic
+    second: {fileID: 2800000, guid: 2870322f170aef757b4da6ec5d4bbf0b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree1_Leaf3_Normal
+    second: {fileID: 2800000, guid: f5aae0a57447158f69cc2006fd1823d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree1_Leaf3_Roughness
+    second: {fileID: 2800000, guid: 47e8142273531c155a125d72930607eb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree1_treeTrunk3_Emissive
+    second: {fileID: 2800000, guid: dab6c609a1c9c58cdb25c064d23804b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree1_treeTrunk3_Height
+    second: {fileID: 2800000, guid: beeb2888daf5214a8ae69a08b3ccf8ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree1_treeTrunk3_Metallic
+    second: {fileID: 2800000, guid: 7c0476261149eb4508e6baf9a9784ce1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree1_treeTrunk3_Normal
+    second: {fileID: 2800000, guid: dfd9df64f279346e98c3e522f479c981, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree1_treeTrunk3_Roughness
+    second: {fileID: 2800000, guid: 4d3f422b050f42849a53f4b902fe5976, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
