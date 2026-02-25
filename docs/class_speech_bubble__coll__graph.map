@@ -1,0 +1,8 @@
+<map id="SpeechBubble" name="SpeechBubble">
+<area shape="rect" id="node1" title=" " alt="" coords="115,404,335,701"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,129,83"/>
+<area shape="rect" id="node4" href="$class_dialogue_controller.html" title=" " alt="" coords="384,132,636,341"/>
+<area shape="rect" id="node3" href="$class_dialogue.html" title=" " alt="" coords="89,191,360,283"/>
+<area shape="rect" id="node5" href="$class_event_relay.html" title=" " alt="" coords="460,499,728,606"/>
+<area shape="rect" id="node6" title=" " alt="" coords="660,198,789,275"/>
+</map>

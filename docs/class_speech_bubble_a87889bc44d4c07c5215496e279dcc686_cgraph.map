@@ -1,0 +1,5 @@
+<map id="SpeechBubble.StartDialogue" name="SpeechBubble.StartDialogue">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,212,57"/>
+<area shape="rect" id="node2" href="$class_dialogue_controller.html#a66cf97318ffd23962a1b748097f6813b" title=" " alt="" coords="260,5,527,32"/>
+<area shape="rect" id="node3" href="$class_speech_bubble.html#a8203683aac98b01991762efd59920ba4" title=" " alt="" coords="298,56,489,83"/>
+</map>

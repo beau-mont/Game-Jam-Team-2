@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class EventRelay : MonoBehaviour
+public class EventRelay : ScriptableObject
 {
-    private DialogueController dCont;
+    public DialogueController dCont;
     void Start()
     {
         dCont = FindFirstObjectByType<DialogueController>();

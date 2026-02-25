@@ -1,0 +1,5 @@
+<map id="Campfire" name="Campfire">
+<area shape="rect" id="node1" title=" " alt="" coords="5,375,192,511"/>
+<area shape="rect" id="node2" title=" " alt="" coords="31,5,155,83"/>
+<area shape="rect" id="node3" href="$class_flame_light.html" title=" " alt="" coords="115,132,325,312"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="SpeechBubble.Start" name="SpeechBubble.Start">
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,155,108"/>
+<area shape="rect" id="node2" href="$class_speech_bubble.html#ae19c6b0052feeb71aff5bb694f2eaa94" title=" " alt="" coords="206,56,406,83"/>
+<area shape="rect" id="node5" href="$class_speech_bubble.html#a87889bc44d4c07c5215496e279dcc686" title=" " alt="" coords="203,107,409,133"/>
+<area shape="rect" id="node3" href="$class_dialogue_controller.html#ad108ab1afba87fbe3fd99e2c999ebc97" title=" " alt="" coords="460,5,721,32"/>
+<area shape="rect" id="node4" href="$class_speech_bubble.html#af978d233044466ece276e7f589832816" title=" " alt="" coords="485,56,696,83"/>
+<area shape="rect" id="node6" href="$class_dialogue_controller.html#a66cf97318ffd23962a1b748097f6813b" title=" " alt="" coords="457,107,724,133"/>
+<area shape="rect" id="node7" href="$class_speech_bubble.html#a8203683aac98b01991762efd59920ba4" title=" " alt="" coords="495,157,686,184"/>
+</map>

@@ -9,11 +9,13 @@ public class DialogueController : MonoBehaviour
     public GameObject talkingPrefab;
     private GameObject currentUI;
     public GameObject cam;
+    public EventRelay relay;
     [HideInInspector]
     public GameObject currentTalker;
 
     void Start()
     {
+        relay.dCont = this;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
