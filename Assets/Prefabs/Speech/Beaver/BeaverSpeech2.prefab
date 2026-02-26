@@ -47,6 +47,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09c7fa72218d799aca036d948a0f3cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogueController: {fileID: 0}
+  questController: {fileID: 0}
 --- !u!1 &4894011352774943742
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,6 +249,18 @@ MonoBehaviour:
             m_Arguments:
               m_ObjectArgument: {fileID: 0}
               m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 8740225301762655031}
+            m_TargetAssemblyTypeName: EventRelay, Assembly-CSharp
+            m_MethodName: CompleteQuest
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 3847e8cf86330ad4a8ddeec691725a29, type: 2}
+              m_ObjectArgumentAssemblyTypeName: QuestObject, Assembly-CSharp
               m_IntArgument: 0
               m_FloatArgument: 0
               m_StringArgument: 

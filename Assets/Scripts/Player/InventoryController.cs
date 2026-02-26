@@ -14,7 +14,7 @@ public class InventoryController : MonoBehaviour
 {
     // doing this in the simplest way possible because i spent way too much time on other code
     public int stickCount;
-    public List<InventoryItem> inventory;
+    private QuestController questController;
     public GameObject stickCounter;
     public List<GameObject> UIElements;
     public GameObject cam;
@@ -24,6 +24,7 @@ public class InventoryController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        questController = FindFirstObjectByType<QuestController>();
         foreach (var item in UIElements)
         {
             if (item.TryGetComponent<Image>(out var i))
@@ -36,23 +37,27 @@ public class InventoryController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (questController.questIndex >= questController.quests.Count || questController.questIndex < 0) return;
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (Physics.Raycast(cam.transform.position, cam.transform.TransformDirection(Vector3.forward), out var hit, 3f)) // i know im running three raycasts at once to do very similar things but i need this done fast lol
             {
-                if (hit.collider.gameObject.tag == "Stick")
+                if (questController.quests[questController.questIndex].QuestObject.Name == "Campfire Quest") // hardcoded but heeheee
                 {
-                    stickCount++;
-                    ShowCount();
-                    Destroy(hit.collider.gameObject);
-                }
-                if (hit.collider.gameObject.GetComponent<Campfire>() == null)
-                    return;
-                if (hit.collider.gameObject.tag == "Campfire" && hit.collider.GetComponent<Campfire>().sticksNeeded <= stickCount)
-                {
-                    hit.collider.GetComponent<Campfire>().StartFire();
-                    stickCount = 0;
-                    ShowCount();
+                    if (hit.collider.gameObject.CompareTag("Stick"))
+                    {
+                        stickCount++;
+                        ShowCount();
+                        Destroy(hit.collider.gameObject);
+                    }
+                    if (hit.collider.gameObject.GetComponent<Campfire>() == null)
+                        return;
+                    if (hit.collider.gameObject.CompareTag("Campfire") && hit.collider.GetComponent<Campfire>().sticksNeeded <= stickCount)
+                    {
+                        hit.collider.GetComponent<Campfire>().StartFire();
+                        stickCount = 0;
+                        ShowCount();
+                    }
                 }
             }
         }
@@ -79,16 +84,11 @@ public class InventoryController : MonoBehaviour
         visible = true;
         timer = Time.time + hideDelay;
         foreach (var item in UIElements)
-            {
-                if (item.TryGetComponent<Image>(out var i))
-                    i.CrossFadeAlpha(1f, 0.5f, true);
-                if (item.TryGetComponent<TextMeshProUGUI>(out var t))
-                    t.CrossFadeAlpha(1f, 0.5f, true);
-            }
+        {
+            if (item.TryGetComponent<Image>(out var i))
+                i.CrossFadeAlpha(1f, 0.5f, true);
+            if (item.TryGetComponent<TextMeshProUGUI>(out var t))
+                t.CrossFadeAlpha(1f, 0.5f, true);
+        }
     }
-}
-
-public class InventoryItem
-{
-    public string ItemName;
 }

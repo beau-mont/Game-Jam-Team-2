@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3651860dd94e6aa0994ed8d2e3b5f05, type: 3}
-  m_Name: New Quest
+  m_Name: Campfire QuestCampfire Quest
   m_EditorClassIdentifier: 
-  Name: Quest1
-  QuestUI: {fileID: 8254206505985667390, guid: f60731e0fee88bb8f9e11db0a1ffafdc, type: 3}
+  Name: Campfire Quest
+  QuestUI: {fileID: 8046498322773937767, guid: 6f6f9bd80ab342666a7f176a17955ad7, type: 3}
