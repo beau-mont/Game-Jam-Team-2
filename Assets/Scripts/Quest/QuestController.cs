@@ -9,30 +9,51 @@ public class QuestController : MonoBehaviour
 {
     public List<Quest> quests;
     [SerializeField] private GameObject UICanvas;
-    [SerializeField] private int questIndex;
+    public int questIndex;
     [SerializeField] private GameObject QuestUI;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        SetQuest(quests.FirstOrDefault().QuestObject);
+        // SetQuest(quests.FirstOrDefault().QuestObject);
     }
 
     public void CompleteQuest(QuestObject quest)
     {
+        if (!quest && questIndex >= 0)
+        {
+            quests[questIndex].IsCompleted = true;
+            SetQuest(null);
+            return;
+        }
         if (!quests.Any(a => a.QuestObject == quest))
         {
             Debug.LogWarning($"quest controller is not assigned quest '{quest.Name}'");
             return;
         }
-        foreach(var item in quests.Where(a => a.QuestObject == quest))
+        // if (quests[questIndex].QuestObject != quest)
+        // {
+        //     Debug.LogWarning("attempted to complete quest that is not current quest");
+        //     return;
+        // }
+        if (quests.FirstOrDefault().IsCompleted)
         {
-            item.IsCompleted = true;
+            Debug.LogWarning("attempted to complete quest that is already completed");
+            return;
         }
+        quests.FirstOrDefault(a => a.QuestObject == quest).IsCompleted = true;
+        SetQuest(null);
     }
 
     public void SetQuest(QuestObject quest)
     {
+        if (!quest)
+        {
+            if (QuestUI)
+                Destroy(QuestUI);
+            questIndex = -1;
+            return;
+        }
         if (!quests.Any(a => a.QuestObject == quest))
         {
             Debug.LogWarning($"quest controller is not assigned quest '{quest.Name}'");
