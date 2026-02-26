@@ -1,21 +1,33 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class EventRelay : ScriptableObject
+public class EventRelay : MonoBehaviour
 {
-    public DialogueController dCont;
+    public DialogueController dialogueController;
+    public QuestController questController;
     void Start()
     {
-        dCont = FindFirstObjectByType<DialogueController>();
+        dialogueController = FindFirstObjectByType<DialogueController>();
+        questController = FindFirstObjectByType<QuestController>();
     }
 
     public void RelayAnimTrigger(string state)
     {
-        dCont.SetAnimTrigger(state);
+        dialogueController.SetAnimTrigger(state);
     }
 
     public void RelayNextDialogue()
     {
-        dCont.NextDialogue();
+        dialogueController.NextDialogue();
+    }
+
+    public void SetQuest(QuestObject quest)
+    {
+        questController.SetQuest(quest);
+    }
+
+    public void CompleteQuest(QuestObject quest)
+    {
+        questController.CompleteQuest(quest);
     }
 }

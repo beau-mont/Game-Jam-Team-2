@@ -12,8 +12,9 @@ using UnityEditor;
 
 public class InventoryController : MonoBehaviour
 {
-    // doing this in the simplist way possible because i spent way too much time on other code
+    // doing this in the simplest way possible because i spent way too much time on other code
     public int stickCount;
+    public List<InventoryItem> inventory;
     public GameObject stickCounter;
     public List<GameObject> UIElements;
     public GameObject cam;
@@ -85,4 +86,9 @@ public class InventoryController : MonoBehaviour
                     t.CrossFadeAlpha(1f, 0.5f, true);
             }
     }
+}
+
+public class InventoryItem
+{
+    public string ItemName;
 }

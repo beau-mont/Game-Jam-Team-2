@@ -15,7 +15,6 @@ public class DialogueController : MonoBehaviour
 
     void Start()
     {
-        relay.dCont = this;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
